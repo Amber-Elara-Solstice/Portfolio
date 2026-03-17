@@ -1,0 +1,38 @@
+export const PROJECTS = [
+  {
+    id: "saps",
+    title: "S.A.P.S",
+    category: "Game Dev",
+    tags: ["Unity", "VR", "AI/NPC", "Team"],
+    summary: "Unity VR stealth prototype with readable NPC expression states for faster testing.",
+    repo: "https://github.com/OtagoPolytechnic/S.A.P.S",
+    cover: "/images/saps/cover.jpg",
+  },
+  {
+    id: "pixie",
+    title: "Into the Pixie Kingdom",
+    category: "Game Dev",
+    tags: ["Unity", "Team"],
+    summary: "Team project with gameplay and systems contributions (systems + moment-to-moment UX).",
+    repo: "https://github.com/TeamShadowCoders/Into-The-Pixie-Kingdom",
+    cover: "/images/pixie/cover.jpg",
+  },
+  {
+    id: "5nap",
+    title: "5NaP",
+    category: "Game Dev",
+    tags: ["Unity", "Team"],
+    summary: "VR horror prototype exploring perception and tension.",
+    repo: "https://github.com/5nappers/5NaP",
+    cover: "/images/5nap/cover.jpg",
+  },
+  // {
+  //   id: ,
+  //   title: ,
+  //   category ,
+  //   tags: [],
+  //   summary ,
+  //   repo: ,
+  //   cover: ,
+  // },
+];

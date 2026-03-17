@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base look */
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply font-sans bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100; }
+  h1,h2,h3 { @apply tracking-tight; }
+}
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Subtle card chrome */
+@layer components {
+  .card {
+    @apply rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/60 shadow-card;
+  }
+}
